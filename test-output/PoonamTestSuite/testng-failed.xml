@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PoonamTestSuite]">
+  <test thread-count="5" name="TrainMilkFactory(failed)">
+    <parameter name="password" value="testpassword"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="username" value="testuser"/>
+    <classes>
+      <class name="com.interview.pagetest.LoginPageTest">
+        <methods>
+          <include name="verifyLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.interview.pagetest.LoginPageTest -->
+    </classes>
+  </test> <!-- TrainMilkFactory(failed) -->
+</suite> <!-- Failed suite [PoonamTestSuite] -->

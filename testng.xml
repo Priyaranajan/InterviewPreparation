@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PoonamTestSuite">
+	<test name="TrainMilkFactory">
+	<parameter name="browser" value="firefox"/>
+	<parameter name="username" value="testuser"/>
+	<parameter name="password" value="testpassword"/>
+		<classes>
+			<class name="com.interview.pagetest.LoginPageTest" />
+		</classes>
+	</test>
+</suite>
